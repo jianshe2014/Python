@@ -1,0 +1,26 @@
+# -*- coding: utf-8 -*-
+
+#关于转义字符,双引号转义、单引号转义
+print "I am 6'2\" tall."
+print "I am 6\'2\" tall."
+
+tabby_cat="\t I'm tabbbed in."
+persian_cat="I'm split \non a line."
+backslash_cat="I'm \\ a \\ cat."
+
+fat_cat="""
+I'll do a list:
+\t* cat food
+\t* Fishies
+"""
+
+print tabby_cat
+print persian_cat
+print fat_cat
+
+while True:
+	for i in ["/","-","|","\\","|"]:
+		print "%s\r" % i,
+
+
+
