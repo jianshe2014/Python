@@ -7,6 +7,7 @@ txt=open(filename)
 
 print "here's your file %r:" % filename
 print txt.read()
+print txt.close()
 
 print "Type the filename again:"
 file_again=raw_input(">")
